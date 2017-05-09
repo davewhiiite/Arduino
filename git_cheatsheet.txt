@@ -1,0 +1,15 @@
+git init
+
+git config --global user.email "davewhite.pv@gmail.com"
+git config --global user.name "Dave White"
+
+
+git add READ.md stats.c stats.h
+git add *
+
+git commit -m "creating initial repository"
+
+
+cd /path/to/your/repo
+git remote add origin https://github.com/earlyhumans/Arduino.git
+git push -u origin master
